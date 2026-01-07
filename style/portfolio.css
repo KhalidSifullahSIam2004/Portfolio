@@ -12,7 +12,7 @@ header{
     background: url(../images//developer.png), url(../images/header_bg.png), #fff8f3;
     background-position: top left, bottom right;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding-top: 51px;
 }
 
 nav{
@@ -120,4 +120,49 @@ nav .menu a{
     max-height: 676px;
     padding-bottom: 0px;
     vertical-align: middle;
+    align-self: end;
 }
+
+.about{
+    margin: 130px 230px;
+    background-color: #fff8f3;
+}
+
+.about-me{
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 131px;
+    padding-bottom: 131px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+.about-me h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+}
+
+.about-me p{
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+}
+
+.about-info{
+    display: flex;
+    gap: 50px;
+    padding: 30px auto;
+}
+.info-card p{
+   font-size: 20px;
+}
+.info-card h4{
+   font-size: 20px;
+   font-weight: 700;
+}
+
