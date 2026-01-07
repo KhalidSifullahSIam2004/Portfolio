@@ -9,7 +9,9 @@
 }
 
 header{
-    background-color: #fff8f3;
+    background: url(../images//developer.png), url(../images/header_bg.png), #fff8f3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding: 50px;
 }
 
@@ -45,11 +47,77 @@ nav .menu a{
 }
 /* share need */
 .btn{
-Width: 150px;
-Height: 65px;
-border: none;
-border-radius: 5px;
-color:#FFFFFF;
-background-color: #FD6E0A;
-font-weight: bold;
+    Width: 150px;
+    Height: 65px;
+    border: none;
+    border-radius: 5px;
+    color:#FFFFFF;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+ #banner {
+    display: flex;
+    margin: 46px 38px 0px 71px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-content h1{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.banner-content p{
+    font-size: 18px;
+    color: #757575;
+    max-width: 585px;
+}
+
+#banner .banner-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#banner .download-cv{
+    margin-top: 30px;
+    Width: 150px;
+    Height: 65px;
+    border: none;
+    border-radius: 5px;
+    color:#FFFFFF;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#banner .contact{
+    margin-top: 30px;
+    Width: 150px;
+    Height: 65px;
+    border: none;
+    border-radius: 5px;
+    color:#FFFFFF;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;  
+}
+
+#banner img{
+    max-width: 584px;
+    max-height: 676px;
+    padding-bottom: 0px;
+    vertical-align: middle;
 }
