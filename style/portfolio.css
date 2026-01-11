@@ -10,7 +10,7 @@
 
 header{
     background: url(../images//developer.png), url(../images/header_bg.png), #fff8f3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px  , bottom right;
     background-repeat: no-repeat;
     padding-top: 51px;
 }
@@ -55,12 +55,13 @@ nav .menu a{
     background-color: #FD6E0A;
     font-weight: bold;
     cursor: pointer;
+    font-size: 20px;
     
 }
 
  #banner {
     display: flex;
-    margin: 46px 38px 0px 71px;
+    margin: 46px 38px 0px 150px;
     justify-content: space-between;
     align-items: center;
 }
@@ -91,7 +92,7 @@ nav .menu a{
 
 #banner .download-cv{
     margin-top: 30px;
-    Width: 150px;
+    Width: 190px;
     Height: 65px;
     border: none;
     border-radius: 5px;
@@ -121,6 +122,7 @@ nav .menu a{
     padding-bottom: 0px;
     vertical-align: middle;
     align-self: end;
+    background-color: #FFFFFF;
 }
 
 .about{
