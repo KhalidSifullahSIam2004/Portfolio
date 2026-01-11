@@ -166,7 +166,7 @@ nav .menu a{
 }
 
 #skills{
-    margin-top: 130px;
+    margin: 130px auto;
 }
 
 #skills .skills-container{
@@ -216,4 +216,142 @@ nav .menu a{
 .skill-card p{
     color: #757575;
     font-size: 16px;
+}
+
+.h1-of-summary{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 114px;
+}
+
+.resume{
+    display: flex;
+    margin: 0px auto;
+    width: 1600px;
+    gap: 59px;
+}
+
+.left-part h2, .right-part h2{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.left-part h3, .right-part h3{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume .left-part h4, .right-part h4{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.left-part p, .right-part p{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.download-cv-btn{
+   width: 200px;
+   padding: 19px 17px;
+   font-size: 20px;
+   font-weight: 700;
+   color: #FFFFFF;
+   background-color: #FD6E0A;
+   border: none;
+   border-radius: 5px;
+   margin-left: 45%;
+   margin-bottom: 113px;
+}
+
+#last{
+    background-color: #FFF8F3;
+    width: 100%;
+}
+
+.last-part{
+    display: flex;
+    gap: 102px;
+    padding: 130px 230px;
+}
+
+.connect h3{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.connect p{
+    color: #474747;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 24px;
+}
+
+.social-icons img{
+    width: 24px;
+    height: 24px;
+}
+
+.form{
+    margin-left: 0;
+}
+
+.form h3{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.form input{
+    background-color: #FFFFFF;
+    width: 461px;
+    height: 64px;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+.form input::placeholder{
+    color: #757575;
+    font-size: 16px;
+    padding: 18px 30px;
+}
+
+.form textarea{
+    margin-bottom: 24px;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 18px 30px;
+}
+
+.form textarea::placeholder{
+    font-size: 16px;
+}
+
+.form .submit-btn{
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 39px;
 }
