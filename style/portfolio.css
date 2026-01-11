@@ -300,6 +300,7 @@ nav .menu a{
     color: #474747;
     font-size: 16px;
     margin-bottom: 30px;
+    max-width: 562px;
 }
 
 .social-icons{
